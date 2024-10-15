@@ -189,7 +189,7 @@ class Clientes extends Controller
         echo json_encode($data);
         die();
     }
-
+ 
     //listar productos pendientes
     public function listarProductos()
     {

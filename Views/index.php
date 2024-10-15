@@ -130,7 +130,7 @@
                   <i class="<?php echo $cuatro; ?> fa fa-star"></i>
                   <i class="<?php echo $cinco; ?> fa fa-star"></i>
                 </li>
-                <li class="text-muted text-right"><?php echo MONEDA . ' ' . $producto['precio']; ?></li>
+                <li class="text-muted text-right"><?php echo 'BS.' . $producto['precio']; ?></li>
               </ul>
               <a href="<?php echo BASE_URL . 'principal/detail/' . $producto['id']; ?>" class="h2 text-decoration-none text-dark"><?php echo $producto['nombre']; ?></a>
               <p class="card-text">

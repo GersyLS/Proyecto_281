@@ -5,7 +5,7 @@ const USER = "root";
 const PASS = "";
 const DB = "tienda";
 const CHARSET = "charset=utf8";
-const TITLE = "TIENDA ONLINE";
+const TITLE = "PRODUCTOS ARTESANALES";
 const MONEDA = "USD";
 const CLIENT_ID = "";
 const USER_SMTP = "elcucu7w7@gmail.com";

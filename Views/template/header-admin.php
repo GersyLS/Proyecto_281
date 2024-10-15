@@ -52,7 +52,7 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/logo.png" class="logo-icon" alt="logo icon">
+                    <img src="<?php echo BASE_URL; ?>assets/images/logoadmin.png" class="logo-icon" alt="logo icon">
                 </div>
                 <div>
                     <h4 class="logo-text"><?php echo TITLE; ?></h4>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="user-box dropdown">
                         <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="<?php echo BASE_URL; ?>assets/images/logo.png" class="user-img" alt="user avatar">
+                            <img src="<?php echo BASE_URL; ?>assets/images/logoadmin.png" class="user-img" alt="user avatar">
                             <div class="user-info ps-3">
                                 <p class="user-name mb-0"><?php echo $_SESSION['nombre_usuario']; ?></p>
                                 <p class="designattion mb-0"><?php echo $_SESSION['email']; ?></p>

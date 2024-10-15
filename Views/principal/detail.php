@@ -118,7 +118,7 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0"><?php echo MONEDA . ' ' . $producto['precio']; ?></p>
+                            <p class="text-center mb-0"><?php echo 'Bs. ' . $producto['precio']; ?></p>
                         </div>
                     </div>
                 </div>
