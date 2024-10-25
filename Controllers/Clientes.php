@@ -69,7 +69,7 @@ class Clientes extends Controller
                 $mail->Port       = PUERTO_SMTP;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                 //Recipients
-                $mail->setFrom('elcucu7w7@gmail.com', TITLE);
+                $mail->setFrom('paolagplstechi@gmail.com', TITLE);
                 $mail->addAddress($_POST['correo']);
 
                 //Content
@@ -106,7 +106,7 @@ class Clientes extends Controller
                 $mensaje = array('msg' => 'TODO LOS CAMPOS SON REQUERIDOS', 'icono' => 'warning');
             } else {
                 $correo = $_POST['correoLogin'];
-                $clave = $_POST['claveLogin'];
+                $cl ave = $_POST['claveLogin'];
                 $verificar = $this->model->getVerificar($correo);
                 if (!empty($verificar)) {
                     if (password_verify($clave, $verificar['clave'])) {

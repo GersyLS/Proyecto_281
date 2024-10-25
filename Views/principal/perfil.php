@@ -2,7 +2,7 @@
 
 <!-- Start Content -->
 <div class="container py-5">
-    <?php if ($data['verificar']['verify'] == 0) { ?>
+    <?php if ($data['verificar']['verify'] == 1) { ?>
         <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Pago</button>
@@ -61,12 +61,12 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                BNB
+                                                PAYPAL
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <div id="BNB-button-container"></div>
+                                                <div id="paypal-button-container"></div>
                                             </div>
                                         </div>
                                     </div>
